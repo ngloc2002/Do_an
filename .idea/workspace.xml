@@ -22,12 +22,12 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:ngloc2002/Do_an.git",
-    "accountId": "f30969d4-9a9b-4ed7-847f-80fa3c3effa5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:ngloc2002/Do_an.git&quot;,
+    &quot;accountId&quot;: &quot;f30969d4-9a9b-4ed7-847f-80fa3c3effa5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -37,32 +37,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/macbook/Desktop/projects/Do_an",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.client.executor": "Run",
-    "npm.server.executor": "Run",
-    "npm.start.executor": "Run",
-    "npm.start1.executor": "Run",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/Desktop/projects/Do_an&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.client.executor&quot;: &quot;Run&quot;,
+    &quot;npm.server.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start1.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/src/pages/user" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.client">
+  <component name="RunManager" selected="npm.server">
     <configuration name="client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <package-json value="$PROJECT_DIR$/ChuongTrinh/client/package.json" />
       <command value="run" />
       <scripts>
         <script value="client" />
@@ -72,7 +75,7 @@
       <method v="2" />
     </configuration>
     <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <package-json value="$PROJECT_DIR$/ChuongTrinh/server/package.json" />
       <command value="run" />
       <scripts>
         <script value="server" />
@@ -106,6 +109,7 @@
       <workItem from="1716299702483" duration="951000" />
       <workItem from="1716392587324" duration="6911000" />
       <workItem from="1716829146661" duration="402000" />
+      <workItem from="1716829576272" duration="1886000" />
     </task>
     <servers />
   </component>
