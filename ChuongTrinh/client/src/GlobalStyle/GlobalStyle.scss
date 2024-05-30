@@ -1,0 +1,218 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #fa842c;
+    --secondary-color: #ccc;
+    --navbar-height: 63px;
+    --body-color: #f8f8fc;
+    --sidebar-color: #fff;
+    --primary-color-light: #f6f5ff;
+    --toggle-color: #ddd;
+    --text-color: #000;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html body {
+    overflow-y: overlay;
+}
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    text-rendering: optimizeSpeed;
+    min-height: 100vh;
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+}
+::selection {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+ol,
+ul {
+    padding-left: 0 !important;
+}
+li {
+    padding: 0 !important;
+}
+//Scrollbar
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.06);
+}
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.06);
+}
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 739px) {
+    .Toastify__toast-container {
+        width: 280px !important;
+        margin-top: 24px;
+        margin-left: auto;
+    }
+}
+@media (min-width: 1400px) {
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1250px !important;
+    }
+}
+// @media (min-width: 992px) {
+//     .container-lg,
+//     .container-md,
+//     .container-sm,
+//     .container {
+//         max-width: 860px !important;
+//     }
+// }
+.wrapper {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: (var(--body-color));
+    // background-color: rgb(191 198 208 / 27%);
+}
+footer {
+    margin-top: auto;
+}
+
+.loading {
+    animation: spinner 1s linear infinite;
+}
+@keyframes spinner {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+// Edit MDB5
+.form {
+    &-outline {
+        background-color: #fff;
+    }
+    &-select,
+    &-control-undefined {
+        margin-bottom: 20px;
+    }
+}
+.modal {
+    &-body {
+        max-height: 70vh;
+        overflow-y: overlay;
+        &.custom {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 32px 15%;
+            max-height: 80vh;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .form-outline {
+        margin-bottom: 20px;
+    }
+    &-dialog {
+        padding: 12px;
+        max-width: 750px !important;
+        p {
+            margin-bottom: 4px;
+        }
+        &.custom {
+            max-width: 75vw !important;
+        }
+    }
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: var(--primary-color) !important;
+    box-shadow: unset !important;
+    &:hover {
+        background-color: #f26c08e8 !important;
+    }
+}
+.page-item.active .page-link {
+    background-color: var(--primary-color) !important;
+    box-shadow: unset !important;
+}
+//CKeditor
+.ck.ck-reset.ck-editor.ck-rounded-corners {
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+//Skeleton
+.react-loading-skeleton {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+//Swiper
+.article-container {
+    img {
+        width: 100%;
+    }
+}
+@media (min-width: 1400px) {
+    .article-container {
+        max-width: 800px !important;
+    }
+}
+//Responsive
+@media (max-width: 739px) {
+    .custom {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 18px !important;
+        max-height: 75vh;
+    }
+    .modal-dialog.custom {
+        max-width: unset !important;
+    }
+}
+// @media (min-width: 576px) {
+//     .container-sm,
+//     .container {
+//         max-width: 600px !important;
+//     }
+// }

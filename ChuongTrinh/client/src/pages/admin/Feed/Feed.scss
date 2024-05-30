@@ -1,0 +1,16 @@
+#feed_table{
+  max-height: calc(100vh - 115px);
+  overflow-y: auto;
+    #custom_feed{
+      iframe{
+        html{
+          body{
+            .Header{
+              display: none;
+              background: red !important;
+            }
+          }
+        }
+      }
+    }
+}

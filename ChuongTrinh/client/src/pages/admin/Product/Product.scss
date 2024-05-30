@@ -1,0 +1,25 @@
+.action {
+    padding: 24px 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .form-outline {
+        display: flex;
+        align-items: center;
+    }
+}
+.content {
+    overflow-x: scroll;
+    padding: 0 56px;
+    padding-top: 0;
+    table {
+        background-color: #fff;
+    }
+}
+.table-name {
+    height: 40px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
